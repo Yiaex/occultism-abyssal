@@ -1,5 +1,7 @@
 # Occultism: Abyss · 神秘学：深渊
 
+[English](README.en.md)
+
 这是 Occultism 的扩展模组，当前版本为 **1.3.0**，Mod ID 为 `occultism_abyssal`。适用于 Minecraft **1.21.1**、NeoForge **21.1.265 至 21.2 之前**、Java **21** 和 Occultism **1.227.0**。开发环境使用 NeoForge **21.1.265**。
 
 ## 主要功能
