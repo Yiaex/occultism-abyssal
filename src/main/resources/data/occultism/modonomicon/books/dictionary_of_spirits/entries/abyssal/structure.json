@@ -1,0 +1,51 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "abyssal",
+  "description": "book.occultism_abyssal.abyss.structure_desc",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "occultism:chalk_void"
+  },
+  "name": "book.occultism_abyssal.abyss.structure",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.occultism_abyssal.abyss.setup",
+      "title": "book.occultism_abyssal.abyss.setup_title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:multiblock",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "multiblock_id": "occultism_abyssal:abyssal_covenant",
+      "multiblock_name": "",
+      "show_visualize_button": true,
+      "text": ""
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.occultism_abyssal.abyss.activation",
+      "title": "book.occultism_abyssal.abyss.activation_title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

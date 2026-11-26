@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "occultism_abyssal:looting_upgrade"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "occultism:soul_gem"
+    }
+  ],
+  "result": {
+    "id": "occultism_abyssal:maintenance_upgrade"
+  }
+}

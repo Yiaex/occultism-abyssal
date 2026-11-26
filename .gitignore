@@ -1,0 +1,57 @@
+# Independent Gradle project in the same workspace
+/advanced-bulk-storage/
+
+# Gradle and IDE output
+/.gradle/
+/.gradle-user-home/
+/build/
+/out/
+/bin/
+
+# Minecraft development instances and saves
+/run/
+/run-*/
+/.minecraft/
+/saves/
+/world/
+/world_*/
+/test-world*/
+/logs/
+/crash-reports/
+*.log
+*.log.gz
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+
+# Keep the documented server defaults, exclude local runtime settings
+/config/*
+!/config/occultism_abyssal-server.toml
+
+# Local IDE and OS settings
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Local credentials and overrides
+.env
+.env.*
+!.env.example
+.netrc
+.git-credentials
+local.properties
+gradle-local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore

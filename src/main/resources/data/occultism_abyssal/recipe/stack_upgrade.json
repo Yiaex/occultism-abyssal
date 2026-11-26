@@ -1,0 +1,34 @@
+{
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 120,
+  "ingredients": [
+    {
+      "item": "occultism:dimensional_matrix"
+    },
+    {
+      "item": "occultism:iesnium_ingot"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:ender_chest"
+    }
+  ],
+  "pentacle_id": "occultism_abyssal:abyssal_covenant",
+  "result": {
+    "id": "occultism_abyssal:stack_upgrade",
+    "count": 1
+  },
+  "ritual_dummy": {
+    "id": "occultism_abyssal:ritual_dummy/stack_upgrade",
+    "count": 1
+  },
+  "ritual_type": "occultism_abyssal:covenant_craft"
+}

@@ -1,0 +1,67 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = '1.3.0'
+group = 'dev.abyssalmining'
+base.archivesName = 'occultism_abyssal'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    maven {
+        url = "https://maven.blamejared.com"
+        content { includeGroup "mezz.jei" }
+    }
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    compileOnly 'mezz.jei:jei-1.21.1-common-api:19.25.0.322'
+    compileOnly 'mezz.jei:jei-1.21.1-neoforge-api:19.25.0.322'
+    if (providers.gradleProperty('withJei').isPresent()) {
+        runtimeOnly 'mezz.jei:jei-1.21.1-neoforge:19.25.0.322'
+    }
+    implementation 'maven.modrinth:occultism:1.21.1-neoforge-1.227.0'
+    implementation 'maven.modrinth:modonomicon:B0Pncoub'
+    compileOnly 'maven.modrinth:jade:eYz2YBGT'
+    compileOnly 'maven.modrinth:ae2:DxZ2waV0'
+    if (providers.gradleProperty('withAe2').isPresent()) {
+        runtimeOnly 'maven.modrinth:ae2:DxZ2waV0'
+        runtimeOnly 'maven.modrinth:guideme:QeYKsstN'
+    }
+    if (providers.gradleProperty('withJade').isPresent()) { runtimeOnly 'maven.modrinth:jade:eYz2YBGT' }
+    runtimeOnly 'maven.modrinth:smartbrainlib:O5EpeqI3'
+    runtimeOnly 'maven.modrinth:geckolib:nxAPSFAR'
+    runtimeOnly 'maven.modrinth:curios:KJsZIQrT'
+}
+
+sourceSets {
+    gameTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+neoForge {
+    version = '21.1.265'
+    runs {
+        client { client(); gameDirectory = project.file('run-client') }
+        server { server(); programArgument '--nogui'; gameDirectory = project.file('run-server') }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'occultism_abyssal'
+        }
+    }
+    mods {
+        occultism_abyssal {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.gameTest
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+java.withSourcesJar()

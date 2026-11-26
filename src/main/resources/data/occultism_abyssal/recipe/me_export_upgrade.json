@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "occultism_abyssal:parallel_upgrade"
+    },
+    {
+      "item": "ae2:import_bus"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "result": {
+    "id": "occultism_abyssal:me_export_upgrade"
+  }
+}

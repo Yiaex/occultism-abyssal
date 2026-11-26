@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="occultism_abyssal"
+version="1.3.0"
+displayName="Occultism: Abyss"
+description="Abyssal mining, dimensional combat, and covenant rituals."
+
+[[dependencies.occultism_abyssal]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.occultism_abyssal]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.occultism_abyssal]]
+modId="occultism"
+type="required"
+versionRange="[1.227.0]"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="occultism_abyssal.mixins.json"

@@ -1,0 +1,53 @@
+{
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 600,
+  "ingredients": [
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    },
+    {
+      "item": "occultism:dimensional_matrix"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "pentacle_id": "occultism_abyssal:abyssal_covenant",
+  "result": {
+    "id": "occultism_abyssal:miner_ancient_abyssal",
+    "count": 1
+  },
+  "ritual_dummy": {
+    "id": "occultism_abyssal:ritual_dummy/miner_ancient_abyssal",
+    "count": 1
+  },
+  "ritual_type": "occultism_abyssal:covenant_craft",
+  "entity_to_sacrifice": {
+    "display_name": "entity.minecraft.wither",
+    "tag": "occultism_abyssal:wither_sacrifice"
+  }
+}

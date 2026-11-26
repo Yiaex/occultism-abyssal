@@ -1,0 +1,18 @@
+[machines]
+mineshaftMaxWorkBudgetPerTick = 48
+battlefieldMaxWorkBudgetPerTick = 16
+mineshaftRedstoneControl = true
+horizontalAutomation = true
+meExportIntervalTicks = 10
+# 仅限制单次击杀增加的奖励数量，基础战利品始终保存。
+battlefieldMaxLootQuantityPerOperation = 16384
+battlefieldLootMultiplierBlacklist = []
+
+[rituals]
+mineshaftRitualDuration = 6000
+stackUpgradeRitualDuration = 2400
+parallelUpgradeRitualDuration = 3600
+abyssalMinerRitualDuration = 12000
+battlefieldRitualDuration = 7200
+lootingUpgradeRitualDuration = 4800
+witherSacrificeRadius = 8

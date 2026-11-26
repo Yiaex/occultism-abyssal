@@ -1,0 +1,18 @@
+{
+  "background": "modonomicon:textures/gui/dark_slate_seamless.png",
+  "background_height": 512,
+  "background_parallax_layers": [],
+  "background_texture_zoom_multiplier": 1,
+  "background_width": 512,
+  "description": "book.occultism_abyssal.abyss.category_desc",
+  "display_mode": "node",
+  "entry_textures": "modonomicon:textures/gui/entry_textures.png",
+  "icon": {
+    "item": "occultism_abyssal:miner_ancient_abyssal"
+  },
+  "max_scroll_x": 512,
+  "max_scroll_y": 512,
+  "name": "book.occultism_abyssal.abyss.category",
+  "show_category_button": true,
+  "sort_number": 20
+}

@@ -1,0 +1,38 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "0": {
+      "type": "modonomicon:tag",
+      "display": "occultism:celestial_chalice",
+      "tag": "#occultism_abyssal:covenant_chalices"
+    },
+    "G": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_void",
+      "tag": "#occultism_abyssal:covenant_glyphs"
+    }
+  },
+  "pattern": [
+    [
+      "_________G_________",
+      "_____G__G_G__G_____",
+      "____G__GGGGG__G____",
+      "___G__G__G__G__G___",
+      "__G_GG___G___GG_G__",
+      "_G__GG___G___GG__G_",
+      "___G__G__G__G__G___",
+      "__G____G_G_G____G__",
+      "_GG_____GGG_____GG_",
+      "G_GGGGGGG0GGGGGGG_G",
+      "_GG_____GGG_____GG_",
+      "__G____G_G_G____G__",
+      "___G__G__G__G__G___",
+      "_G__GG___G___GG__G_",
+      "__G_GG___G___GG_G__",
+      "___G__G__G__G__G___",
+      "____G__GGGGG__G____",
+      "_____G__G_G__G_____",
+      "_________G_________"
+    ]
+  ]
+}

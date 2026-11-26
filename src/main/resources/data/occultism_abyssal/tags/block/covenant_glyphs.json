@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "occultism:chalk_glyph_void",
+    "occultism:chalk_glyph_rainbow",
+    "occultism_abyssal:abyssal_rune",
+    "occultism_abyssal:abyssal_covenant_pentacle"
+  ]
+}

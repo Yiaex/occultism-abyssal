@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "occultism_abyssal:block/advanced_battlefield_side",
+    "end": "occultism_abyssal:block/advanced_battlefield_top"
+  }
+}
